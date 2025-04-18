@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import dbConnect from "./db.js";
 import route from "./routes/users.route.js";
 
-dotenv.config();
+dotenv.config(); // dotenv
 const PORT = process.env.PORT;
 const app = express();
 app.use(express.json());
